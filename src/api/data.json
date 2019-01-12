@@ -1,0 +1,84 @@
+{
+  "_id": 1,
+  "names": "Jane",
+  "surnames": "Doe",
+  "profession": "Designer",
+  "location": "London, UK",
+  "email": "ex@mail.com",
+  "phone": "1224435534",
+  "skills": [
+    {
+      "skill_name": "Adobe Photoshop",
+      "skill_pctg": 90
+    },
+    {
+      "skill_name": "Photography",
+      "skill_pctg": 80
+    },
+    {
+      "skill_name": "Illustrator",
+      "skill_pctg": 75
+    },
+    {
+      "skill_name": "Media",
+      "skill_pctg": 50
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "lang_pctg": 100
+    },
+    {
+      "language": "Spanish",
+      "lang_pctg": 55
+    },
+    {
+      "language": "German",
+      "lang_pctg": 25
+    }
+  ],
+  "work_experiences": [
+    {
+      "job_title": "Front End Developer",
+      "company": "w3schools.com",
+      "start_date": "Jan 2015",
+      "end_date": "Current",
+      "job_description": ["Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."]
+    },
+    {
+      "job_title": "Web Developer",
+      "company": "something.com",
+      "start_date": "Mar 2012",
+      "end_date": "Dec 2014",
+      "job_description": ["Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."]
+    },
+    {
+      "job_title": "Graphic Designer",
+      "company": "designsomething.com",
+      "start_date": "Jun 2010",
+      "end_date": "Mar 2012",
+      "job_description": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit."]
+    }
+  ],
+  "education": [
+    {
+      "institution": "W3Schools.com",
+      "start_date": "Jan 2015",
+      "end_date": "Forever",
+      "degree": "Web Development! All I need to know in one place"
+    },
+    {
+      "institution": "London Business School",
+      "start_date": "2013",
+      "end_date": "2015",
+      "degree": "Master Degree"
+    },
+    {
+      "institution": "School of Coding",
+      "start_date": "2010",
+      "end_date": "2013",
+      "degree": "Bachelor Degree"
+    }
+  ] 
+}

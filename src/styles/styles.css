@@ -1,0 +1,194 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+h2, h5, h6 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 18px;
+  opacity: 0.60;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+i {
+  color: #009688;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  box-sizing: content-box;
+  height: 0;
+  margin: 20px 0;
+  overflow: visible;
+}
+
+.fa-fw {
+  margin-right: 16px;
+}
+
+.fa--18 {
+  font-size: 18px;
+}
+
+.fa--36 {
+  font-size: 36px;
+}
+
+.app {
+  margin-top: 16px;
+  padding: 0 8px;
+}
+
+.app__profile, .app__formation div {
+  background-color: #fff;
+}
+
+.app__profile {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin: 0 8px 22px;
+}
+
+.app__formation {
+  margin: 0 8px;
+}
+
+.container {
+  padding: .01em 16px;
+}
+
+.profile__avatar {
+  position: relative;
+}
+
+.profile__name {
+  bottom: 0;
+  color: black;
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+}
+
+.profile__header {
+  font-size: 18px;
+}
+
+.pctg__background {
+  background-color: #f1f1f1;
+  border-radius: 16px;
+}
+
+.pctg__front {
+  background-color: #009688;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 12px;
+  padding: .01em 0;
+  text-align: center;
+}
+
+.pctg__front--no-text {
+  height: 24px;
+  padding: 0;
+}
+
+.app__experiences, .app__education {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-bottom: 16px;
+}
+
+.app__experiences h2 , .app__education h2 {
+  padding: 16px 0; 
+}
+
+.app__exp, .app__ed {
+  color: black;
+}
+
+.app__exp h6, .app__ed h6 {
+  color: #009688;
+} 
+
+.current-tag, .style-select {
+  background-color: #009688;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+}
+
+.footer .fa{
+  color: inherit;
+  margin: 0 1.85px;
+}
+
+.footer a{
+  color: inherit;
+}
+
+.fa:hover {
+  opacity: 0.60;
+}
+
+.style-select {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+.style-select a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 601px) {
+  .app {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  /* 
+  Con flex los divide en 1/3 y 2/3 pero
+   no queda igual que la plantilla.
+  */
+  .app__profile {
+    flex: 1;
+  }
+  
+  .app__formation {
+    flex: 2;
+  }
+}

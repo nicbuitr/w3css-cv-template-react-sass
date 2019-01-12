@@ -1,0 +1,207 @@
+$desktop: 601px;
+$border-color: #eee;
+$primary-color: #fff;
+$secondary-color: #009688;
+$font-primary-color: #757575;
+$font-secondary-color: #000;
+$background-primary-color: #f1f1f1;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background-primary-color;
+  color: $font-primary-color;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+h2, h5, h6 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 18px;
+  opacity: 0.60;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+i {
+  color: $secondary-color;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $border-color;
+  box-sizing: content-box;
+  height: 0;
+  margin: 20px 0;
+  overflow: visible;
+}
+
+.fa {
+  &-fw {
+    margin-right: 16px;
+  }
+  
+  &--18 {
+    font-size: 18px;
+  }
+  
+  &--36 {
+    font-size: 36px;
+  }
+}
+
+.app {
+  margin-top: 16px;
+  padding: 0 8px;
+
+  @include desktop {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  &__profile {
+    background-color: $primary-color;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin: 0 8px 22px;
+
+    @include desktop {
+      flex: 1;
+    }
+  }
+  
+  &__formation {
+    margin: 0 8px;
+    
+    @include desktop {
+      flex: 2;
+    }
+
+    div {
+      background-color: $primary-color;
+    }
+  }
+
+  &__experiences, &__education {
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    h2 {
+      padding: 16px 0; 
+    }
+  }
+  
+  &__exp, &__ed {
+    color: $font-secondary-color;
+    h6 {
+      color: $secondary-color;
+    } 
+  }
+}
+
+.profile {
+  &__avatar {
+    position: relative;
+  }
+  
+  &__name {
+    bottom: 0;
+    color: $font-secondary-color;
+    font-weight: 400;
+    left: 0;
+    position: absolute;
+  }
+  
+  &__header {
+    font-size: 18px;
+  }
+}
+
+.container {
+  padding: .01em 16px;
+}
+
+.pctg {
+  &__background {
+    background-color: $background-primary-color;
+    border-radius: 16px;
+  }
+  
+  &__front {
+    background-color: $secondary-color;
+    border-radius: 16px;
+    color: $primary-color;
+    font-size: 12px;
+    padding: .01em 0;
+    text-align: center;
+
+    &--no-text {
+      height: 24px;
+      padding: 0;
+    }
+  }
+}
+
+.current-tag, .style-select {
+  background-color: $secondary-color;
+  border-radius: 4px;
+  color: $primary-color;
+  display: inline-block;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.footer {
+  background-color: $secondary-color;
+  color: $primary-color;
+  text-align: center;
+  
+  .fa {
+    color: inherit;
+    margin: 0 1.85px;
+    
+    &:hover {
+      opacity: 0.60;
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.style-select {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
