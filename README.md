@@ -4,6 +4,8 @@
 
 The aim of this project was to translate the [w3css CV template](https://www.w3schools.com/w3css/tryw3css_templates_cv.htm) to a functional responsive web application built with React.js and Parcel Bundler which also has its responsiveness handled both by regular CSS and Sass for training and learning purposes.
 
+[Alternative w3css CV template link](https://nicbuitr.github.io/w3css-cv-template-react-sass/w3css-cv-template-original.html)
+
 ## Changes (DD/MM/AAAA)
 
 - 11/01/2019 Initial Upload.
