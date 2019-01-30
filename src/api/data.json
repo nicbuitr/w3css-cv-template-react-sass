@@ -44,21 +44,27 @@
       "company": "w3schools.com",
       "start_date": "Jan 2015",
       "end_date": "Current",
-      "job_description": ["Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."]
+      "job_description": [
+        "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      ]
     },
     {
       "job_title": "Web Developer",
       "company": "something.com",
       "start_date": "Mar 2012",
       "end_date": "Dec 2014",
-      "job_description": ["Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."]
+      "job_description": [
+        "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      ]
     },
     {
       "job_title": "Graphic Designer",
       "company": "designsomething.com",
       "start_date": "Jun 2010",
       "end_date": "Mar 2012",
-      "job_description": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit."]
+      "job_description": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      ]
     }
   ],
   "education": [
@@ -80,5 +86,5 @@
       "end_date": "2013",
       "degree": "Bachelor Degree"
     }
-  ] 
+  ]
 }
