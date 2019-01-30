@@ -1,4 +1,6 @@
-# w3css-cv-template with React & Sass
+<p align="center">
+    <a href="../../"><img src="https://github.com/nicbuitr/f/blob/master/avatar.png" ></a>
+</p>
 
 ## Information:
 
@@ -8,6 +10,7 @@ The aim of this project was to translate the [w3css CV template](https://www.w3s
 
 ## Changes (DD/MM/AAAA)
 
+- 30/01/2019 Updated Readme and formatted code.
 - 11/01/2019 Initial Upload.
 
 ## How To View:
@@ -18,7 +21,7 @@ Just click here [w3css-cv-template-react-sass](https://nicbuitr.github.io/w3css-
 
 Just download or clone the repo:
 
-$ git clone https://github.com/nicbuitr/w3css-cv-template-react-sass.git
+    $ git clone https://github.com/nicbuitr/w3css-cv-template-react-sass.git
 
 ## Installation
 
@@ -37,3 +40,14 @@ And finally, to initialize the app run:
     $ npm start
 
 Once its deployed go to http://localhost:1234/
+
+
+## Built with:
+
+[![React](https://github.com/nicbuitr/f/blob/master/react.png)](https://reactjs.org/)  | [![Node](https://github.com/nicbuitr/f/blob/master/node.png)](https://nodejs.org)    | [![NPM](https://github.com/nicbuitr/f/blob/master/npm.png)](https://www.npmjs.com/) | [![Sass](https://github.com/nicbuitr/f/blob/master/sass.png)](https://sass-lang.com/)  | [![Parcel](https://github.com/nicbuitr/f/blob/master/parcel.png)](https://parceljs.org/)
+:---:|:---:|:---:|:---:|:---:
+
+
+## License
+
+MIT © [Nicolás Buitrago Castaño](https://github.com/nicbuitr)
